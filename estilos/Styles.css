@@ -3,6 +3,10 @@ body {
 background-image: url(/img/istockphoto-1354982067-612x612.jpg);
 }
 
+head{
+  gap: none;
+}
+
 @font-face {
   font-family:'Starjedi' ;
   src: url(/fuente/Starjedi.ttf);
@@ -61,6 +65,8 @@ img {
 
 .titulo{
   text-align: center;
+  background-image: url(/img/fondo\ menu.jpeg);
+  
 }
 .titulo img{
   border-radius: 15px;
