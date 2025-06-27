@@ -9,7 +9,9 @@
     align-items: center;
     text-align: center;
     background-image: url(/img/fondo\ menu.jpeg);
-    background-repeat:initial;
+    background-position: 100%;
+    background-size: cover;
+    background-repeat:none;
     
     
 }
