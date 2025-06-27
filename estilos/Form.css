@@ -14,7 +14,7 @@
   padding: 1.5rem 3rem;
   font-size: 1.1rem;
   font-weight: 600;
-  color: #fff;
+  color: #ffffff;
   background: none;
   border: none;
   cursor: pointer;
@@ -24,7 +24,6 @@
 
 .hologram {
   border: 2px solid cyan;
-  background-color: black;
   box-shadow: 0 0 10px cyan, 0 0 20px cyan, 0 0 30px blue;
   text-shadow: 0 0 5px cyan, 0 0 10px blue;
 }
