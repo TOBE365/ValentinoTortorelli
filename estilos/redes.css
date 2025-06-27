@@ -1,0 +1,7 @@
+.redes {
+    display: flex;
+}
+.redes img {
+    width: 150PX;
+    padding: 70px;
+}

@@ -1,11 +1,14 @@
 body {
 
 background-image: url(/img/istockphoto-1354982067-612x612.jpg);
+padding-top: 150px;
 }
 
-head{
-  gap: none;
+head {
+  position: relative;
+  height: 100px; /* Ajustalo al alto de tu barra */
 }
+
 
 @font-face {
   font-family:'Starjedi' ;
@@ -27,7 +30,6 @@ h2{
   text-align: left;
   font-family: 'Starjedi' ;
   font-weight: initial;
-  text-decoration: underline;
   margin: 35px;
 }
 
@@ -63,18 +65,6 @@ img {
   max-height: 100%;
 }
 
-.titulo{
-  text-align: center;
-  background-image: url(/img/fondo\ menu.jpeg);
-  
-}
-.titulo img{
-  border-radius: 15px;
-  width: 200px;
-  height: 150px;
-
-}
-  
 
 .itemfot {
     text-align: center;
@@ -122,35 +112,7 @@ img {
 
   }
 
-  .menu {
-    display: flex;
-    flex-grow: 1;
-    text-align: center;
-    background-color: yellow;
-    padding: 20px 10px;
-    margin: 50px;
-  }
-  .menu table{
-    text-align: center;
-
-  }
-  .menu h2{
-      text-align: center;
-      align-items: center;
-      background-color: yellow;
-      color: black;
-      font-family: 'Starjedi';
-      font-weight: normal;
-      padding: 50px;
-      margin: 1px;
-      border-left-style: double;
-      border-right-style: double;
-  }
-  .menu img{
-    align-items: end;
-    width: 100px;
-
-  }
+ 
 
   .premios{
     text-align: center;
@@ -172,7 +134,14 @@ img {
     height: 100%;
   }
 
-  
+  .nueva {
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 10%;
+  }
+
+
 
 
   
