@@ -92,11 +92,6 @@ img {
     width: 500px;
     height: 275px;
   }
-  .itemfot h6 {
-    text-align: center;
-    color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-  }
   
 
   .reparto {
@@ -200,8 +195,11 @@ main {
 }
 
 .alinear2 img {
+  justify-content: center;
   width: 450px;
   margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 15px;
 }
 
 @media screen and (max-width: 750px){
