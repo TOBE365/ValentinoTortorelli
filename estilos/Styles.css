@@ -12,6 +12,7 @@ body {
 background-image: url(/img/istockphoto-1354982067-612x612.jpg);
 min-width: 300px;
 flex-wrap: wrap;
+margin-bottom: 50px;
 }
 
 head {
@@ -33,7 +34,7 @@ h1{
   font-family: 'Starjedi' ;
   font-weight: initial;
   text-decoration: underline;
-  margin-top: 50px;
+  
 }
 
 h2{
@@ -57,7 +58,9 @@ p{
     text-align: justify; 
     margin-left: 40px;
     margin-right: 40px;
+    margin-top: 50px;
     width: 90%;
+
 }
 
 img {
@@ -79,6 +82,7 @@ img {
   width: 100%;
   max-height: 100%;
   max-width: 300px;
+  margin-top: 50px;
 }
 
 
@@ -133,7 +137,7 @@ img {
   align-items: center;
  }
  .item p{
-  max-width: 325px;
+  max-width: 260px;
  }
 
   .premios{
@@ -160,12 +164,12 @@ img {
     text-align: center;
     margin-left: 25%;
     margin-right: 25%;
-    margin-top: 10%;
+    margin-top: 170px;
   }
 
 .alinear {
   justify-content: center;
-  margin-top: 200px;
+  
   display: flex;
   flex-direction: column;
   gap: 50px;
@@ -194,6 +198,8 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 200px;
+    
   }
  
 .contenedor {

@@ -87,10 +87,10 @@
 }
 
 @media (min-width: 100px){
-.form button{
-width: 100px;
-flex-direction: column;
-align-items: center;
+.form {
+width: auto;
+flex-direction: row-reverse;
+ align-items: center;
 }
 
 }
