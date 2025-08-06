@@ -9,3 +9,9 @@
     text-align: center;
     
 }
+
+@media screen and (max-width: 1400px){
+    .confirm{
+        margin-top: 150px ;
+    }
+}

@@ -9,7 +9,7 @@
     background-position: 100%;
     background-size: cover;
     background-repeat:none;
-    
+    z-index: 1000;
     
 }
 
@@ -34,7 +34,7 @@
     background: rgb(0, 0, 0)  url(/img/VADER.png) no-repeat;
     background-size: contain;
     background-position: bottom;
-    
+    z-index: 1001;
     
 }
 #panelHamburguesa:target{

@@ -1,3 +1,12 @@
+label {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Starjedi' ;
+  font-weight: initial;
+  text-decoration: none;
+  margin-top: 30px;
+}
 
 .form  {
     text-align: center;
@@ -7,6 +16,7 @@
 .form form{
     display: flex;
     gap: 50px;
+    flex-direction: column;
 }
 
 .form button {
@@ -20,6 +30,18 @@
   cursor: pointer;
   overflow: hidden;
   transition: all 0.4s ease;
+}
+
+.formitem{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.email {
+  padding: 15px;
+  width: 100%;
 }
 
 .hologram {
@@ -89,7 +111,7 @@
 @media (min-width: 100px){
 .form {
 width: auto;
-flex-direction: row-reverse;
+flex-direction: column;
  align-items: center;
 }
 
